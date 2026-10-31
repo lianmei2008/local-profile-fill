@@ -150,13 +150,11 @@ public final class MainActivity extends Activity {
 
     private void manage() {
         new Thread(() -> {
-            final List<Map<String, String>> values;
-            final String error;
+            List<Map<String, String>> values = null;
+            String error = null;
             try {
                 values = ProfileStore.load(this);
-                error = null;
             } catch (Exception error0) {
-                values = null;
                 error = error0.getMessage() == null ? "读取资料失败。" : error0.getMessage();
             }
             runOnUiThread(() -> {
