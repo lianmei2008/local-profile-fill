@@ -1,0 +1,26 @@
+[
+  {
+    "first_name": "Alex",
+    "last_name": "Example",
+    "email": "alex@example.com",
+    "password": "Example-only-DoNotUse!",
+    "phone": "2025550100",
+    "street": "123 Example Street",
+    "city": "Example City",
+    "state": "NY",
+    "postal_code": "10001",
+    "country": "US"
+  },
+  {
+    "first_name": "Taylor",
+    "last_name": "Sample",
+    "email": "taylor@example.com",
+    "password": "Another-demo-password!",
+    "phone": "2025550101",
+    "street": "456 Sample Avenue",
+    "city": "Sample Town",
+    "state": "CA",
+    "postal_code": "90001",
+    "country": "US"
+  }
+]
