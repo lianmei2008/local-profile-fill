@@ -9,7 +9,8 @@
     "city": "Example City",
     "state": "NY",
     "postal_code": "10001",
-    "country": "US"
+    "country": "US",
+    "phone_api": "https://sms-api.example.com/verify"
   },
   {
     "first_name": "Taylor",
@@ -21,6 +22,7 @@
     "city": "Sample Town",
     "state": "CA",
     "postal_code": "90001",
-    "country": "US"
+    "country": "US",
+    "phone_api": "https://sms-api.example.com/verify"
   }
 ]

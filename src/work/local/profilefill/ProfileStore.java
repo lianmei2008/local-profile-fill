@@ -35,7 +35,7 @@ public final class ProfileStore {
     public static final int MAX_PROFILES = 200;
     private static final String KEY = "local_profile_fill_v1";
     private static final String[] FIELDS = {"first_name", "last_name", "email", "password",
-        "phone", "street", "city", "state", "postal_code", "country"};
+        "phone", "street", "city", "state", "postal_code", "country", "phone_api"};
     private ProfileStore() {}
 
     public static List<Map<String, String>> parse(byte[] data) throws Exception {
